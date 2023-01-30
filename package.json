@@ -1,12 +1,12 @@
 {
   "name": "api-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for Daily Values of Nutrients",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jessica Fuller",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
