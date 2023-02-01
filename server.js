@@ -2,19 +2,19 @@ const { response } = require('express');
 const express = require('express');
 const app = express();
 const PORT = 8000;
-const nutrients = require('nutrients');
+const nutrients = require('./data');
 
 
 //Routes
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
+app.get('/', (request, response) => {
+    response.sendFile(__dirname + '/index.html');
 })
 
-app.get('/api/:nutrient', (req, res) => {
-    const nutrientName = req.params.nutrient.toLowerCase();
+app.get('/api/:nutrient', (request, response) => {
+    const nutrientName = request.params.nutrient.toLowerCase();
 
-    nutrients[nutrientName] ? res.json(nutrients[nutrientName]) : 
-    res.json(nutrients['unknown']);
+    nutrients[nutrientName] ? response.json(nutrients[nutrientName]) : 
+    response.json(nutrients['unknown']);
 });
 
 app.listen(process.env.PORT || PORT, ()=> {
