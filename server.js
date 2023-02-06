@@ -10,6 +10,10 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 })
 
+app.get('/api', (request, response) => {
+    response.json(nutrients);
+});
+
 app.get('/api/:nutrient', (request, response) => {
     const nutrientName = request.params.nutrient.toLowerCase();
 
