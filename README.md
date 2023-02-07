@@ -6,7 +6,7 @@ Daily Values are comprised of two sets of reference values for reporting nutrien
 
 **Link to project:** https://nutrition-daily-values-api.onrender.com
 
-![screenshot of API website HTML](https://user-images.githubusercontent.com/98281798/215303483-f5870fad-c72f-4da6-8fac-4dfda6d339b5.PNG)
+![Photo of various fruits and vegetables in a market in Barcelona, Spain. Photo by Jacopo Maia](https://i.ibb.co/Qn1Njs8/jacopo-maia-g-OUx23-DNks-unsplash.jpg)
 
 ## How It's Made:
 
