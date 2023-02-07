@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const PORT = 8000;
 const nutrients = require('./data');
 
+
+app.use(cors());
 
 //Routes
 app.get('/', (request, response) => {
