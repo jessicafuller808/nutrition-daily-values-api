@@ -23,10 +23,10 @@ Daily Values are comprised of two sets of reference values for reporting nutrien
 Each Nutrient object includes keys for:
 
 * Unit of measurment: unitOfMeasure
-* Recommended DV for ages > 4: olderThan4
-* Recommended DV for 0 - 12 months: birthTo12Months
-* Recommended DV for 1 - 3 years: age1To3Years
-* Recommended DV for pregnant or lactating: pregOrLactating
+* **Recommended DV for ages > 4:** olderThan4
+* **Recommended DV for 0 - 12 months:** birthTo12Months
+* **Recommended DV for 1 - 3 years:** age1To3Years
+* **Recommended DV for pregnant or lactating:** pregOrLactating
 
 
 ## Optimizations
