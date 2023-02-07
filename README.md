@@ -18,7 +18,7 @@ Daily Values are comprised of two sets of reference values for reporting nutrien
 
 **Run Server** - node server
 
-**Access API** - /api/
+**Access API** - http://localhost:8000/api
 
 Each Nutrient object includes keys for:
 

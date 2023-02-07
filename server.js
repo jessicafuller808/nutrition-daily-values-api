@@ -11,7 +11,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api', (request, response) => {
-    response.sendFile(__dirname + '/data.js');
+    response.json(nutrients);
 });
 
 app.get('/api/:nutrient', (request, response) => {
