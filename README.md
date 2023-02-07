@@ -12,7 +12,7 @@ Daily Values are comprised of two sets of reference values for reporting nutrien
 
 **Tech used:** HTML, Express.js, Node.js
 
-## How to Use This
+## How to Use This Repo
 
 **Install dependencies** - npm install
 
