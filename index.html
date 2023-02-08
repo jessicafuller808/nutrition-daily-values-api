@@ -17,12 +17,25 @@
         <p>Data is based on information provided by <a href="https://www.fda.gov/media/99069/download">fda.gov</a></p>
 
         <section>
-            <details> 
+
+            <details open> 
                 <summary>How to use the API</summary>
                 <p>
                     You can use the API by making GET requests to the endpoint <a href="https://nutrition-daily-values-api.onrender.com/api">https://nutrition-daily-values-api.onrender.com/api</a>.
                     To target a specific nutrient, use /api/nutrient name. Example: /api/vitamins a (note the space) or /api/zinc.
                 </p>
+
+                <p>
+                    Each nutrient has the following properties:
+                </p>
+
+                <ul>
+                    <li>Unit of measurement: unitOfMeasure</li>
+                    <li>Recommended DV for ages > 4: olderThan4</li>
+                    <li>Recommended DV for 0 - 12 months: birthTo12Months</li>
+                    <li>Recommended DV for 1 - 3 years: age1To3Years</li>
+                    <li>Recommended DV for pregnant or lactating: pregOrLactating</li>
+                </ul>
             </details>
     
             <details> 
