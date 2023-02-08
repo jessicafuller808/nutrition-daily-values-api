@@ -8,10 +8,10 @@ const nutrients = require('./data');
 app.use(cors());
 app.use(express.static('public'));
 
-//Routes
-app.get('/', (request, response) => {
-    response.sendFile(__dirname + '/index.html');
-})
+//No longer needed with above code, all static files are already included from public folder
+// app.get('/', (request, response) => {
+//     response.sendFile(__dirname + '/index.html');
+// })
 
 app.get('/api', (request, response) => {
     response.json(nutrients);
