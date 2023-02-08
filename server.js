@@ -6,6 +6,7 @@ const nutrients = require('./data');
 
 
 app.use(cors());
+app.use(express.static('public'));
 
 //Routes
 app.get('/', (request, response) => {
