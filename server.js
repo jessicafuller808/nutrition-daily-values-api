@@ -24,6 +24,6 @@ app.get('/api/:nutrient', (request, response) => {
     response.json(nutrients['unknown']);
 });
 
-app.listen(process.env.PORT || PORT, ()=> {
+app.listen(process.env.PORT, ()=> {
     console.log(`The server is now running on port ${PORT}`);
 })
