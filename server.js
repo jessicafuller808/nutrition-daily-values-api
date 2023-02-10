@@ -25,5 +25,5 @@ app.get('/api/:nutrient', (request, response) => {
 });
 
 app.listen(process.env.PORT, ()=> {
-    console.log(`The server is now running on port ${PORT}`);
+    console.log(`The server is now running on port ${process.env.PORT}`);
 })
