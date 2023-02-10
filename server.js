@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const nutrients = require('./data');
+require('dotenv').config();
 
 
 app.use(cors());
